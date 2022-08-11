@@ -1,15 +1,16 @@
-﻿{
-    int a = Convert.ToInt32(Console.ReadLine());
-    int b = Convert.ToInt32(Console.ReadLine());
-    int max = 0;
-    if (a > b)
-    {    
-        max = a;
-    }
-    else 
-    {
-        max = b;
-    }
-
-    Console.WriteLine(max);
+﻿
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+int c = Convert.ToInt32(Console.ReadLine());
+int max = a;
+    
+if (b > a)
+{    
+    max = b;
 }
+if (c > max)
+{
+    max = c; 
+}
+
+Console.WriteLine(max);
