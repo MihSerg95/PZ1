@@ -1,16 +1,12 @@
-﻿
-int a = Convert.ToInt32(Console.ReadLine());
-int b = Convert.ToInt32(Console.ReadLine());
-int c = Convert.ToInt32(Console.ReadLine());
-int max = a;
-    
-if (b > a)
+﻿int a = Convert.ToInt32(Console.ReadLine());
+  
+if (a % 2 == 0)
 {    
-    max = b;
+    Console.WriteLine("Да");
 }
-if (c > max)
+else 
 {
-    max = c; 
+    Console.WriteLine("Нет");
 }
 
-Console.WriteLine(max);
+Console.WriteLine(a);
